@@ -5,6 +5,7 @@
     <test name="Package1">
         <classes>
             <class name="MainClassTest"/>
+            <class name="LoginValidationTest"/>
         </classes>
     </test>
 </suite>
