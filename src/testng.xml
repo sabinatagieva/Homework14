@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testing.org/testing-1.0.dtd">
+
+<suite name="Auto">
+    <test name="Package1">
+        <classes>
+            <class name="MainClassTest"/>
+        </classes>
+    </test>
+</suite>
