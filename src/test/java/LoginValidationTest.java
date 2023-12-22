@@ -35,15 +35,15 @@ public class LoginValidationTest {
     public Object[][] invalidCreds() {
         return new Object[][] {
                 {"", ""},
-                {"user123", "pass123"},
+                {"User1", "123456"},
         };
     }
 
     @Test
     public void testValidLogin() {
         driver.get("https://demoqa.com/login");
-        waiter(driver,usernameInput).sendKeys("MashaQa");
-        waiter(driver,passwordInput).sendKeys("Qa1234567890*");
+        waiter(driver,usernameInput).sendKeys("Sabina");
+        waiter(driver,passwordInput).sendKeys("Qwerty1!");
         waiter(driver,loginButton).click();
     }
 
